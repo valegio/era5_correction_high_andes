@@ -62,7 +62,8 @@ All scripts are Google Colab notebooks written in R. Run them in number order:
    -  `clean_data/1_era5_daily_putre_caspana_stations_clean.csv`
    -  `clean_data/1_inia_daily_putre_caspana_stations_clean.csv`
 3. `scripts/2_analysis.ipynb` *(coming soon)* will correct ERA5-LAnd with the two references, compare the results and save figures to `figures/`.
-
+   
+Each notebook mounts Google Drive with one Python cell (`drive.mount()`), then switches to the R runtime. See the notes at the top of each notebook.
 
 ## Data cleaning steps (`1_data_clean.ipynb`)
 
